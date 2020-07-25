@@ -1,0 +1,546 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Portfolio</title>
+	   <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/homestyle.css">
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	  	  <link rel="stylesheet" href="css/animate.css">
+	
+	   <script src="js/jQuery.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	    <script src="js/all.min.js"></script>
+	    <script src="js/nav.js"></script>
+		<script src="js/wow.min.js"></script>
+		
+
+<style>
+	
+</style>
+</head>
+<body onload="fadeOut()">
+<section id="header">
+		
+
+	
+    <div class="container-fluid">
+	<nav class="navbar navbar-expand-sm fixed-top navbar-light mt-0 wow fadeInUp" data-wow-delay="3s" id="navbar">
+		<div class="container">
+        <a class="navbar-brand" href="#">Danish<span id="dot">.</span></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+		<ul class="navbar-nav ml-auto" id = "menu">
+			 <li class="nav-item ">
+			<a class="nav-link" href="#second">Services</a>
+		  </li>
+		   <li class="nav-item">
+			<a class="nav-link" href="#third">Completed Projects</a>
+		  </li>
+		   
+		  <li class="nav-item">
+			<a class="nav-link" href="#fifth">Connect with me</a>
+		  </li>
+		  
+			<a class=" nav-item nav-link" style="color:#00BFA6; text-decoration:underline" href="https://drive.google.com/file/d/1b7C_x5VecaRGp2e8-cuC5P6HwR4kjJOy/view?usp=sharing" target="_blank" >Download Resume</a>
+		  
+		</ul>
+	  </div>
+	  
+
+			</div>
+		</nav>		
+</section>
+<div class = "blocks">
+<section class="block" id="first">
+	<div class="container " id="cont">
+		<div class="overlay">
+            <p class="screen">PORTFOLIO</p>
+            <div class="intro">
+                    <button class="myBtn" >LET'S GO</button>
+            </div>
+		</div>
+		 <div class="overlay-2"></div>
+
+        <div class="content ">
+		<div class="row d-flex justify-content-center  ">
+		
+			<div class="col-sm-12 col-md-12 col-lg-12 ">
+				<div class="card  ml-auto" id="grd" style="width: 18rem;">
+								 
+									<div class="card-body">
+									<h5 class="card-title">Grading</h5>
+									<button class="btn btn-primary" value="Good" id= "first" onclick="return getGrade()">1</button>
+									<button class="btn btn-primary" >2</button>
+									<button class="btn btn-primary">3</button>
+									
+									</div>
+				</div>				
+			</div>
+			<div class="col-sm-12 col-md-10 col-lg-12 d-flex justify-content-center ">
+				
+									<h5 class="card-title ml-auto">Digital Designer
+									<br>
+									& Web Developer</h5>
+									
+									
+				</div>
+				
+			</div>
+			
+			
+			
+			
+		</div>	
+		</div>
+	
+			
+			
+			
+	</div>	
+</section>
+<section class = "block" id = "second">
+<div class="container my-5">
+	<p class="text-center my-2 wow fadeInRight" data-wow-delay="0.2s" id = "heading">Services as Digital Designer & Web Developer </p>
+	
+		<div class="row  wow fadeInRight" data-wow-delay="0.8s">
+		
+			<div class="col-lg-6 col-sm-12 col-md-12 my-5">	
+				<p  id="servicehead">| User Interface</p>
+			</div>
+			<div class="col-lg-6 col-sm-12 col-md-12 my-5">	
+				<p class= "" id="servicepara">Create beautiful and colorful interfaces for mobile that not only look good but are functional.</p>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 my-5">	
+				<p  id="servicehead">| Designer</p>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 my-5">	
+				<p  id="servicepara">Designing beautiful designs or prototypes for websites or an app. Based on User requirement and taste prototype will be designed.   </p>
+			</div>
+		
+		
+			<div class="col-sm-12 col-md-12 col-lg-6 my-5">	
+				<p  id="servicehead">| Front-End</p>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 my-5">	
+				<p  id="servicepara">Tackling beautiful designs and building them into responsive and functional websites. Using different front-end developing languages and framework </p>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 my-5">	
+				<p  id="servicehead">| Back-End</p>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 my-5">	
+				<p  id="servicepara">Beautiful designs and Front-end designs can be made to a fully functional site
+						By using different back-end languages and using logic to makes those requests a reality. </p>
+			</div>
+			
+		
+		</div>
+</div>
+</section>
+<section class = "block" id = "third">
+         <!-- Swiper -->
+		 
+<div class = "container my-2 wow fadeInUp" data-wow-delay="1s ">
+	<!-- <p class="h5 text-center" id = "heading" >Completed <span style=" font-weight: 700;">UI Design and Coded</span> Projects.</p>-->
+	 <p class="h5 text-center my-3" id = "heading" >Completed UI Design and Coded Projects.</p>
+		 <p class="h5 text-center" id = "heading" ></p>	
+		<div class ="row d-flex justify-content-center">
+			<div class="col-md-12 col-lg-12">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+					
+					<div class="swiper-slide">
+					<div id = "mock1">
+						<div class="card"  style="width: 18rem;">
+							<img class="card-img-top" src="img/mock.png" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Explore Around App Design</h5>
+						   
+								<a href="https://www.behance.net/gallery/94054621/Explore-Near-by-design" target="_blank" class="btn btn-primary">View on Behance</a>
+							</div>
+						</div>
+						</div>
+	  
+					</div>
+				<div class="swiper-slide">
+					<div id ="mock2">
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/mock2.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title ">Travel Web Design</h5>
+					   
+						<a href="https://www.behance.net/gallery/94054865/Travel" target="_blank" class="btn btn-primary">View on Behance</a>
+					  </div>
+					</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id ="mock3">
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/mock3.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Help Landing Page</h5>
+					   
+						<a href="#" class="btn btn-primary">View on Behance</a>
+					  </div>
+					</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id ="mock4">
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/mock4.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">App Description Landing Page</h5>
+					   
+						<a href="https://www.behance.net/gallery/100235017/App-Description-Landing-Page" target="_blank" class="btn btn-primary">View on Behance</a>
+					  </div>
+					</div>
+					</div>
+	  
+				</div>
+				<div class="swiper-slide">
+					<div id ="mock5">
+					<div class="card " style="width: 18rem;">
+					  <img class="card-img-top" src="img/mock5.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Protofolio Landing Page</h5>
+					   
+						<a href="https://www.behance.net/gallery/97783751/Portfolio-Landing-page" target="_blank" class="btn btn-primary">View on Behance</a>
+					  </div>
+					</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div id ="mock6">
+					<div class="card my-0" style="width: 18rem;">
+					  <img class="card-img-top" src="img/mock6.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Interview Test Page Design</h5>
+					   
+						<a href="https://www.behance.net/gallery/101095625/Interview-Taking-Page-Design" target="_blank" class="btn btn-primary">View on Behance</a>
+					  </div>
+					</div>
+					</div>
+				</div>
+  
+     
+    <!-- Add Pagination -->
+    
+			</div>
+		</div>
+	</div>
+</div>
+  
+  </div>
+  <div class = "container my-0 wow fadeInUp" data-wow-delay="1.2s">	
+		<div class ="row d-flex justify-content-center">
+		<div class="col-md-12 col-lg-12">
+ <div class="swiper-container">
+  <p class="h5 text-center" id = "heading" style="font-size:19px"></p>	
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+		<div id="p1">
+		<div class="card"  style="width: 18rem;">
+					  <img class="card-img-top" src="img/p1.1.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Friends Feed</h5>
+					   
+						<a href="https://github.com/Danish-an/Friend-Feeds" class="btn btn-primary">View on Github</a>
+					  </div>
+					</div>
+					</div>
+	  
+	  </div>
+      <div class="swiper-slide">
+		<div id ="p2">
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/p2.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title ">Venture Watch Shop</h5>
+					   
+						<a href="https://github.com/Danish-an/Venture-Watch-Shop-Design" class="btn btn-primary">View on Github</a>
+					  </div>
+					</div>
+					</div>
+	  </div>
+      <div class="swiper-slide">
+		<div id ="p3">
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/p3.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Data Entry</h5>
+					   
+						<a href="https://github.com/Danish-an/Data-Entry" class="btn btn-primary">View on Github</a>
+					  </div>
+					</div>
+					</div>
+	  </div>
+      <div class="swiper-slide">
+		<div id ="p4">
+					<div class="card " style="width: 18rem;">
+					  <img class="card-img-top" src="img/p4.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Shop and Scan</h5>
+					   
+						<a href="https://github.com/asad0908/scan-shop" class="btn btn-primary">View on Github</a>
+					  </div>
+					</div>
+					</div>
+	  
+	  </div>
+      <div class="swiper-slide">
+		<div id ="p5">
+					<div class="card " style="width: 18rem;">
+					  <img class="card-img-top" src="img/p5.png" alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Interview Test Page Design</h5>
+					   
+						<a href="https://github.com/Danish-an/Interview-Page-Design" class="btn btn-primary">View on Github</a>
+					  </div>
+					</div>
+					</div>
+	  </div>
+      
+  
+     
+    <!-- Add Pagination -->
+    
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  
+        <script type="text/javascript" src="js/swiper.min.js"> </script>
+         <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 60,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+		simulateTouch:true,
+		allowTouchMove:true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+	  
+    });
+  </script>
+
+
+
+</section>
+
+
+
+<section class = "block" id = "fifth">
+<div class="container-fluid my-5">
+ 
+	<div class =  "row">
+		<div class = "col-sm-12 col-md-6 col-lg-4">
+			<div class = "row">
+				<div class = "col-sm-12 col-md-6 col-lg-6">
+					<div id = "social">
+					<div class="card wow fadeInUp" data-wow-delay="1.4s " style="width: 21rem;">
+					 
+					  <div class="card-body">
+						<h5 class="card-title text-center animated bounce">Social</h5>
+							<div class="card-img-top text-center my-5">
+								<a href="https://www.facebook.com/profile.php?id=100011143893163" target="_blank"><i class="fab fa-facebook-f mr-3"></i> Facebook</a>
+							</div>
+							<div class="card-img-top text-center my-5">
+								<a href="https://www.instagram.com/_danish_a/" target="_blank"><i class="fab fa-instagram mr-3"></i> Instagram</a>
+							</div>
+							
+							<div class="card-img-top text-center my-5">
+								<a href="https://www.behance.net/danish-an" target="_blank"><i class="fab fa-behance mr-3"></i> Behance</a>
+							</div>
+							<div class="card-img-top text-center my-5 ">
+								<a href="https://github.com/Danish-an" target="_blank"><i class="fab fa-github mr-3"></i> Github</a>
+							</div>
+							<div class="card-img-top text-center my-5 ">
+								<h5 class="card-title text-center">Mail</h5>
+								<a href="#"><i class="far fa-envelope-open mr-3"></i>danishmohdsalim@gmail.com</a>
+							</div>
+						
+					  </div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class = "col-sm-12 col-md-6 col-lg-8 wow fadeInUp" data-wow-delay="1.5s">
+		
+		
+		<p class="h5 text-center my-3" id = "heading" >Connect with me or Drop a line for me.</p>
+		<form id="form" target="_self"  
+		onsubmit="return postToGoogle();" action=""
+		autocomplete="off" method = "POST">
+				  <div class="form-row">
+						<div class="form-group col-md-6 mb-5">
+						  <label for="inputName4">First Name</label>
+						  <input type="text" class="form-control" name="entry.1158638023" id="nameField" placeholder="Type your name">
+						</div>
+						 <div class="form-group col-md-6">
+					<label for="inputEmail">Email</label>
+					<input type="email" class="form-control" name="emailAddress" id="emailField" placeholder="Type your  email">
+				  </div>
+				  </div>
+				 <div class="form-group mb-5">
+						  <label for="inputName4">Subject</label>
+						  <input type="text" class="form-control" name="entry.555253142" id="subField" placeholder="Type your subject">
+						</div>
+				   <div class="form-group mb-5">
+					<label for="inputMessage">Message</label>
+					<textarea class="form-control" name="entry.433229069" id="mesField" rows="3"></textarea>
+					<!-- <input type="email" class="form-control" name="Message" id="inputMessage" placeholder="Your Message"> -->
+				  </div>
+				  
+					<div class="row">
+						<div class="col text-center">
+						
+						  <button class="btn" id="submitbtn">Submit</button>
+						
+						</div>
+					</div>
+			</form>
+			<h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:#fff"> Your Request has been posted to Google Spreadsheet</h3>
+			
+			
+			
+		</div>
+	</div>
+			
+		
+	
+</div>
+</section>
+</div>
+<!-- Footer -->
+<footer class="page-footer my-0">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center">© 2020 Copyright:
+    <a href="#"> Danish Ansari</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+ <script>
+function postToGoogle() {
+				 var field1 = $("#nameField").val();
+                var field2 = $("#emailField").val();
+                var field3 = $("#subField").val();
+                var field4 = $("#mesField").val();
+					$.ajax({
+                    url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe7ZX5KCglYQqMteaJ_SN8CmoVsu01Ndjd_oJsCXNqOHHkhYQ/formResponse",
+					data: {"entry.1158638023": field1, "emailAddress": field2, "entry.555253142": field3, "entry.433229069": field4},
+                    type: "POST",
+                    dataType: "xml",
+                    success: function(d)
+					{
+					},
+					error: function(x, y, z)
+						{
+
+							$('#success-msg').show();
+							$('#form').hide();
+							
+						}
+                });
+				return false;
+            }
+</script> 
+
+   <script>
+
+     function fadeOut() {
+
+     TweenMax.to(".myBtn", 1, {
+          y: -100,
+          opacity: 0,
+		  
+     });
+
+     TweenMax.to(".screen", 2, {
+          y: -400,
+          opacity: 0,
+          ease: Power2.easeInOut,
+          delay: 1
+     });
+
+     TweenMax.from(".overlay", 2, {
+          ease: Power2.easeInOut
+     });
+
+     TweenMax.to(".overlay", 2, {
+          delay: 1.6,
+          top: "-110%",
+          ease: Expo.easeInOut
+     });
+
+     TweenMax.to(".overlay-2", 2, {
+          delay: 2,
+          top: "-110%",
+          ease: Expo.easeInOut
+     });
+
+     TweenMax.from(".content", 2, {
+          delay: 2.2,
+          opacity: 0,
+          ease: Power2.easeInOut
+     });
+
+     TweenMax.to(".content", 2, {
+          opacity: 1,
+          y: -300,
+          delay: 2.2,
+          ease: Power2.easeInOut
+		  
+     });
+	}
+
+  
+
+    </script>
+</body>
+<script src="js/active-menu-link.js"></script>
+<script>
+new ActiveMenuLink(".navbar", {
+	// duration in ms
+    scrollDuration: 200,
+});
+</script>
+<script type="text/javascript">
+
+      //Scroll reveal animations
+
+      new WOW().init();
+
+      //Scroll activated background change
+      $(function() {
+            $(document).scroll(function() {
+                  var $nav = $(".navbar");
+                  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+      });
+</script>
+
+</html>

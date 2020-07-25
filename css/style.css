@@ -1,0 +1,187 @@
+#tp{
+writing-mode: vertical-rl;
+text-orientation: mixed;	
+}
+
+#mock1 .card{
+background: #0F0E17;
+
+
+
+}
+#mock1 .card ,
+#mock2 .card, 
+#mock3 .card, 
+#mock4 .card, 
+#mock5 .card, 
+#mock6 .card, 
+#p1 .card,
+#p2 .card,
+#p3 .card,
+#p4 .card,
+#p5 .card {
+	-webkit-box-shadow: 2px 5px 18px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 5px 18px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 5px 18px 0px rgba(0,0,0,0.75);
+	-webkit-transition:all .4s linear;/**new*/
+transition:all .4s ease;/**new*/
+height:15rem;
+transform:scale(0.9);
+}
+#mock1 .card:hover,
+#mock2 .card:hover,
+#mock3 .card:hover,
+#mock4 .card:hover,
+#mock5 .card:hover,
+#mock6 .card:hover,
+#p1 .card:hover,
+#p2 .card:hover,
+#p3 .card:hover,
+#p4 .card:hover,
+#p5 .card:hover{
+	opacity:1;
+	transform:scale(1);
+	cursor:pointer;
+	
+}
+.card-title{
+	font-size: 15px;
+    color: white;
+	
+}
+.card-img-top ,
+#mock2 .card-img-top,
+#mock3 .card-img-top, 
+#mock4 .card-img-top, 
+#mock5 .card-img-top, 
+#mock6 .card-img-top {
+	opacity:0.8;
+}
+.btn{
+	background: #2B2842;
+	
+	border:none;
+	height:35px;
+	border-radius:10px;
+	-webkit-transition:all .4s linear;/**new*/
+transition:all .4s ease;/**new*/
+}
+.btn:hover{
+	background:none;
+	border:2px solid #9DA2EF;
+	
+}
+#mock2 .card{
+	background:#71A096;
+}
+#mock2 .btn{
+	background: #618881;
+}
+#mock3 .card{
+	background:#D393BD;
+}
+#mock3 .btn{
+	background: #B27DA1;
+}
+#mock4 .card{
+	background:#B9D1DE;
+}
+#mock4 .btn{
+	background: #8C99B9;
+	color:black;
+}
+#mock4 .card-title{
+	color:black;
+}
+#mock5 .card{
+	
+	background: #2C2C2D;
+}
+#mock5 .btn{
+	background:#141416;
+	
+	
+}
+#mock6 .card{
+	
+	background:#fffffe;
+	
+}
+#mock6 .btn{
+	background: #CDCDCF;
+	color:black;
+	
+	
+}
+#mock6 .card-title{
+	color:black;
+}
+
+#p1 .card{
+	
+	background:#5F5398;
+	
+}
+#p1 .btn{
+	background: #4D437B;
+
+	
+	
+}
+#p2 .card{
+	background: #633452;
+	
+	
+}
+#p2 .btn{
+	
+	background:#552E48;
+
+	
+	
+}
+#p3 .card{
+	background:#71D0F7;
+	
+}
+#p3 .btn{
+	background: #48A3D9;
+	
+}
+#p4 .card{
+	background: #A5855F;
+	
+	
+}
+#p4 .btn{
+	background:#A38D71;
+	
+}
+#p5 .card{
+	background:#7D7D7D;
+	
+	
+	
+}
+#p5 .btn{
+	background: #717171;
+	
+}
+
+
+
+
+ .swiper-container {
+      width: 100%;
+      padding-top: 15px;
+      
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 260px;
+	  /*background:#0D0D0E;*/
+
+    }
