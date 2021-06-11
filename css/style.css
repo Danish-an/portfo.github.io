@@ -19,6 +19,7 @@ background: #0F0E17;
 #p2 .card,
 #p3 .card,
 #p4 .card,
+#p6 .card,
 #p5 .card {
 	-webkit-box-shadow: 2px 5px 18px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 2px 5px 18px 0px rgba(0,0,0,0.75);
@@ -38,6 +39,7 @@ transform:scale(0.9);
 #p2 .card:hover,
 #p3 .card:hover,
 #p4 .card:hover,
+#p6 .card:hover,
 #p5 .card:hover{
 	opacity:1;
 	transform:scale(1);
